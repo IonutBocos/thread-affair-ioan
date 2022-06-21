@@ -10,10 +10,13 @@ export default function HeaderSecondary() {
       <div className="header-support d-none d-lg-block">
         <ul>
           <li>
+            <i class="fa-solid fa-phone"></i>
+          </li>
+
+          <li>
             <a href="tel:1-877-666-1840" title="Call us">
               Toll Free 1-877-666-1840
             </a>
-            I
           </li>
 
           <li>
@@ -45,6 +48,7 @@ export default function HeaderSecondary() {
           <li>
             <a href="https://www.google.ro/?hl=ro" title="Cart">
               <i className="fa-solid fa-cart-shopping"></i>
+              <span class="qty">3</span>
             </a>
           </li>
 
