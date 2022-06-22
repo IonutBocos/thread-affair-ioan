@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+import HomePayment from '../components/homepage/HomePagyment';
 
 export default function Home() {
   return (
@@ -10,11 +12,11 @@ export default function Home() {
 
       <Header></Header>
 
-      <header className="header mt-5 text-warning"></header>
+      <main className="content">
+        <HomePayment></HomePayment>
+      </main>
 
-      <main className="content"></main>
-
-      <footer className="footer"></footer>
+      <Footer></Footer>
     </div>
   );
 }
