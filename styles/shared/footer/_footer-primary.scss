@@ -1,5 +1,6 @@
 .footer-primary {
   background-color: $brand-secondary;
+  padding-bottom: 34px;
 
   &-inner {
     display: grid;
@@ -22,13 +23,32 @@
     flex-wrap: wrap;
     row-gap: 43px;
     grid-area: nav;
+    font-size: 12px;
+    color: $gray-tertiary;
+    font-weight: 300;
+    line-height: 30px;
+    margin-left: 48px;
+    margin-top: 49px;
+    text-transform: uppercase;
+    text-align: left;
 
     @include media-breakpoint-up('lg') {
       column-gap: 110px;
+      font-size: 14px;
+      line-height: 20px;
     }
 
     ul {
       flex-basis: 50%;
+
+      a {
+        padding: 2px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          color: $brand-primary;
+        }
+      }
 
       @include media-breakpoint-up('lg') {
         flex-basis: auto;
@@ -38,19 +58,71 @@
 
   .footer-contact {
     grid-area: contact;
+    display: flexbox;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 48px;
+    color: $gray-tertiary;
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 300;
+      span {
+        font-weight: bold;
+      }
+    }
+
+    a {
+      display: block;
+    }
+    // daca nu necesita verificare imi poti spune de unde am avut la paragraf mb=14px ca a trebuit sa pun 0 sa se alinieze?
+    p {
+      margin-bottom: 0;
+
+      :nth-child(2) {
+        color: $brand-primary;
+      }
+    }
 
     @include media-breakpoint-up('lg') {
       align-self: end;
+      justify-self: start;
     }
   }
 
   .footer-support {
     grid-area: support;
     justify-self: center;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: $gray-tertiary;
 
     @include media-breakpoint-up('lg') {
       justify-self: start;
       align-self: end;
+      margin-left: 48px;
+    }
+
+    li {
+      display: inline-block;
+      gap: 33px;
+      margin-right: 29px;
+      transition: 0.2 ease-in-out;
+
+      a {
+        i {
+          display: block;
+          color: $brand-primary;
+          font-size: 40px;
+          margin-bottom: 10px;
+        }
+      }
+
+      &:hover {
+        transform: scale(1.03);
+      }
     }
   }
 }

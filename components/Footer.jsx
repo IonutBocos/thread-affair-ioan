@@ -157,7 +157,7 @@ export default function footer() {
             </ul>
           </nav>
 
-          <section className="footer-content">
+          <section className="footer-contact">
             <h1>
               <span>Thread Affair</span> Milano
             </h1>
@@ -178,19 +178,19 @@ export default function footer() {
             <ul>
               <li>
                 <a href="tel:+0039 02 760 003 66" title="Support">
-                  Support
+                  <i className="fa-solid fa-phone"></i> Support
                 </a>
               </li>
 
               <li>
                 <a href="" title="Chat">
-                  Chat
+                  <i className="fa-solid fa-comments"></i> Chat
                 </a>
               </li>
 
               <li>
                 <a href="" title="Email">
-                  Email
+                  <i className="fa-solid fa-envelope"></i> Email
                 </a>
               </li>
             </ul>

@@ -53,6 +53,7 @@
       display: flex;
       align-items: center;
       gap: 18px;
+      font-size: 19px;
 
       li:nth-child(1) {
         a {
@@ -91,12 +92,12 @@
     }
 
     img {
-      height: 41px;
-      width: 41px;
+      width: 30px;
+      height: 30px;
 
-      @include media-breakpoint-down(lg) {
-        width: 22px;
-        height: 22px;
+      @include media-breakpoint-up(lg) {
+        width: 36px;
+        height: 36px;
       }
     }
   }
