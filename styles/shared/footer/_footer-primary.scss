@@ -27,12 +27,12 @@
     color: $gray-tertiary;
     font-weight: 300;
     line-height: 30px;
-    margin-left: 48px;
     margin-top: 49px;
     text-transform: uppercase;
     text-align: left;
 
     @include media-breakpoint-up('lg') {
+      flex-wrap: nowrap;
       column-gap: 110px;
       font-size: 14px;
       line-height: 20px;
@@ -42,7 +42,7 @@
       flex-basis: 50%;
 
       a {
-        padding: 2px;
+        padding: px;
         transition: all 0.2s ease-in-out;
 
         &:hover {
@@ -61,7 +61,6 @@
     display: flexbox;
     font-size: 14px;
     line-height: 18px;
-    margin-left: 48px;
     color: $gray-tertiary;
 
     h1 {
@@ -76,7 +75,7 @@
     a {
       display: block;
     }
-    // daca nu necesita verificare imi poti spune de unde am avut la paragraf mb=14px ca a trebuit sa pun 0 sa se alinieze?
+
     p {
       margin-bottom: 0;
 
@@ -102,7 +101,6 @@
     @include media-breakpoint-up('lg') {
       justify-self: start;
       align-self: end;
-      margin-left: 48px;
     }
 
     li {
