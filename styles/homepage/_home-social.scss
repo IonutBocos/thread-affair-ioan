@@ -4,6 +4,10 @@
     justify-content: center;
     gap: 14px;
 
+    li:hover {
+      transform: scale(1.055);
+    }
+
     a {
       display: flex;
       border: 1px solid $gray-secondary;

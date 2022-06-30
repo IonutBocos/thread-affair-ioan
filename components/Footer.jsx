@@ -44,37 +44,37 @@ export default function footer() {
 
             <ul>
               <li>
-                <a href="https://x.ro" title="Information">
+                <a href="https://x.ro" title="Services">
                   Information
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Contact us">
+                <a href="https://x.ro" title="Ship to store">
                   Contact us
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Track my order">
+                <a href="https://x.ro" title="Gift card">
                   Track my order
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Shipping">
+                <a href="https://x.ro" title="Online Only">
                   Shipping
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Free returns">
+                <a href="https://x.ro" title="Tips tricks">
                   Free returns
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="My account">
+                <a href="https://x.ro" title="Home">
                   My account
                 </a>
               </li>
@@ -82,37 +82,37 @@ export default function footer() {
 
             <ul>
               <li>
-                <a href="https://x.ro" title="Information">
-                  Information
+                <a href="https://x.ro" title="Loyality programs">
+                  Loyality programs
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Contact us">
-                  Contact us
+                <a href="https://x.ro" title="Sign up">
+                  Sign up
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Track my order">
+                <a href="https://x.ro" title="The simons">
                   Track my order
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Shipping">
+                <a href="https://x.ro" title="My account">
                   Shipping
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Free returns">
+                <a href="https://x.ro" title="Conditions">
                   Free returns
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="My account">
+                <a href="https://x.ro" title="Faq">
                   My account
                 </a>
               </li>
@@ -120,7 +120,7 @@ export default function footer() {
 
             <ul>
               <li>
-                <a href="https://x.ro" title="Information">
+                <a href="https://x.ro" title="Careers">
                   Information
                 </a>
               </li>
@@ -157,7 +157,7 @@ export default function footer() {
             </ul>
           </nav>
 
-          <section className="footer-contact">
+          <section className="footer-contact ">
             <h1>
               <span>Thread Affair</span> Milano
             </h1>

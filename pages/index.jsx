@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import CatalogPreviews from '../components/homepage/CatalogPreviews';
 import ContentBanner from '../components/homepage/ContentBanner';
 import HomePayment from '../components/homepage/HomePayment';
 import HomeSocial from '../components/homepage/HomeSocial';
@@ -21,6 +22,8 @@ export default function Home() {
         </header>
 
         <section className="content-main">
+          <CatalogPreviews></CatalogPreviews>
+
           <HomeNewsletter></HomeNewsletter>
 
           <HomeSocial></HomeSocial>
