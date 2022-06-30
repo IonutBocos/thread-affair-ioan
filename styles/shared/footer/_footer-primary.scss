@@ -87,6 +87,7 @@
     @include media-breakpoint-up('lg') {
       align-self: end;
       justify-self: start;
+      margin-left: 16px;
     }
   }
 

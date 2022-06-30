@@ -31,7 +31,7 @@ export default function ProductTile() {
 
         <span className="price">
           USD
-          <span>299</span>
+          <span>299.00</span>
         </span>
       </section>
 

@@ -27,6 +27,8 @@
       :nth-child(2) {
         font-weight: 600;
         color: $gray-primary;
+        margin-left: 4px;
+        margin-right: 4px;
       }
     }
 
@@ -56,6 +58,7 @@
 
       span {
         color: $brand-primary;
+        margin-left: 4px;
       }
     }
   }
